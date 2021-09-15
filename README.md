@@ -24,4 +24,4 @@ Validation Accuracy at 50 step: 89.5%.
 The predicted probability values is clipped at `eps` and `1.0-eps` for numerical stability. When the predicted probability is outside the interval `(eps, 1.0-eps)`, a mask will remove these points from updating the weights as the gradient at these points (after clipping) should be zero.
 
 ## 2. Statistics Assignment
-Please read the [statistics assignment]()
+Please read the [statistics assignment](https://github.com/WD-Leong/Programming-Assignments/blob/master/Statistics_Assignment_1.pdf) and the solution provided within. The script `statistics_assignment_1.py` has the solution in python code. In general, the solution may have numerical overflow as `K` becomes large so an asymptotic solution is also obtained.

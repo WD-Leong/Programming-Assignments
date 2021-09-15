@@ -23,3 +23,5 @@ Validation Accuracy at 50 step: 89.5%.
 ```
 The predicted probability values is clipped at `eps` and `1.0-eps` for numerical stability. When the predicted probability is outside the interval `(eps, 1.0-eps)`, a mask will remove these points from updating the weights as the gradient at these points (after clipping) should be zero.
 
+## 2. Statistics Assignment
+Please read the [statistics assignment]()
